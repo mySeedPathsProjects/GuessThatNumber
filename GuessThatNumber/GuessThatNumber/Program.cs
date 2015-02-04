@@ -123,7 +123,7 @@ Enter a number between 1 and 100:");
         public static bool ValidateInput(string userInput)
         {
             //check to make sure that the users input is a numerical digit between 1 and 100.
-            if (userInput.All(char.IsDigit))
+            if (userInput.All(char.IsDigit) && userInput != string.Empty)
             {
                 int inputNumber = Convert.ToInt32(userInput);
                 if (inputNumber >= 1 && inputNumber <= 100)
