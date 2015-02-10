@@ -44,7 +44,7 @@ Enter a number between 1 and 100:");
             NumberToGuess = rng.Next(1, 101);
 
             //*** Only used to show number computer randomly generated for testing purposes
-            Console.WriteLine(NumberToGuess);
+            //Console.WriteLine(NumberToGuess);
 
             //while user not correctly guessing the generated number
             //UsersNumber was initialized at 0 (not between 1 and 100) so loop can begin before we actually have user input
